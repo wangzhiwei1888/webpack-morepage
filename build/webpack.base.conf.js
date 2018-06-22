@@ -14,7 +14,8 @@ var webpackConfig= {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/entry/main.js',
-    a: './src/entry/a.js'
+    a: './src/entry/a.js',
+    pageB: './src/entry/pageB.js'
   },
   output: {
     path: config.build.assetsRoot,
