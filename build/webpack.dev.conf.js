@@ -104,7 +104,7 @@ Object.keys(entries).forEach(function(name) {
         // 自动将引用插入html
         inject: true,
         // 每个html引用的js模块，也可以在这里加上vendor等公用模块
-        chunks: [name,'app','vendor','manifest'],
+        chunks: [name,'vendor','manifest'],
         // minify: {
         //   removeComments: true,
         //   collapseWhitespace: true,
